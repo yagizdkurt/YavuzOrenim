@@ -10,7 +10,6 @@ void core::systemInit() {
     std::cout << "System Initialization..." << std::endl;
     // Initialization code here
 
-    sf::Window window(sf::VideoMode({800, 600}), "Core Window");
 }
 
 void core::mainLoop() {
