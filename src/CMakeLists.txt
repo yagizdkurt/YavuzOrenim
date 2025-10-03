@@ -1,3 +1,1 @@
-# src/CMakeLists.txt
 file(GLOB_RECURSE SRC_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
-

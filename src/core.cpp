@@ -1,4 +1,4 @@
-#include "includes.hpp"
+#include "core.hpp"
 
 void core::coreMain() {
     systemInit();

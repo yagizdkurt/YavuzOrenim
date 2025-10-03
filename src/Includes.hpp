@@ -6,8 +6,7 @@
 
 
 // SFML libraries
-#include <SFML/window.hpp>
+#include "SFML/window.hpp"
 
 
 // Include project headers
-#include "core.hpp"

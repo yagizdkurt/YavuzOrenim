@@ -1,10 +1,8 @@
 #include "Includes.hpp"
+#pragma once
 
 class core {
 public:
-    core();
-    ~core();
-
     void coreMain();
     void systemInit();
     void mainLoop();
