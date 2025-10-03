@@ -7,6 +7,4 @@ public:
     void systemInit();
     void mainLoop();
     void shutdown();
-
-
 };

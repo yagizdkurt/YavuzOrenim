@@ -149,12 +149,12 @@ src/clean:
 bin/CMakeFiles/prg.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles --progress-num=1,2 "Built target prg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles --progress-num=1,2,3 "Built target prg"
 .PHONY : bin/CMakeFiles/prg.dir/all
 
 # Build rule for subdir invocation for target.
 bin/CMakeFiles/prg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bin/CMakeFiles/prg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles 0
 .PHONY : bin/CMakeFiles/prg.dir/rule
@@ -166,7 +166,7 @@ prg: bin/CMakeFiles/prg.dir/rule
 # codegen rule for target.
 bin/CMakeFiles/prg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles --progress-num=1,2 "Finished codegen for target prg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\WWW\Desktop\Yavuz\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target prg"
 .PHONY : bin/CMakeFiles/prg.dir/codegen
 
 # clean rule for target.

@@ -1,1 +1,1 @@
-file(GLOB_RECURSE SRC_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
+# This file can be used for src-specific configurations if needed   

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/prg.dir/__/src/core.cpp.obj"
+  "CMakeFiles/prg.dir/__/src/core.cpp.obj.d"
   "CMakeFiles/prg.dir/main.cpp.obj"
   "CMakeFiles/prg.dir/main.cpp.obj.d"
   "libprg.dll.a"

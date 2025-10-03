@@ -129,6 +129,30 @@ prg/fast:
 	cd /d C:\Users\WWW\Desktop\Yavuz\build && $(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/build
 .PHONY : prg/fast
 
+__/src/core.obj: __/src/core.cpp.obj
+.PHONY : __/src/core.obj
+
+# target to build an object file
+__/src/core.cpp.obj:
+	cd /d C:\Users\WWW\Desktop\Yavuz\build && $(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/__/src/core.cpp.obj
+.PHONY : __/src/core.cpp.obj
+
+__/src/core.i: __/src/core.cpp.i
+.PHONY : __/src/core.i
+
+# target to preprocess a source file
+__/src/core.cpp.i:
+	cd /d C:\Users\WWW\Desktop\Yavuz\build && $(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/__/src/core.cpp.i
+.PHONY : __/src/core.cpp.i
+
+__/src/core.s: __/src/core.cpp.s
+.PHONY : __/src/core.s
+
+# target to generate assembly for a file
+__/src/core.cpp.s:
+	cd /d C:\Users\WWW\Desktop\Yavuz\build && $(MAKE) $(MAKESILENT) -f bin\CMakeFiles\prg.dir\build.make bin/CMakeFiles/prg.dir/__/src/core.cpp.s
+.PHONY : __/src/core.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -162,6 +186,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... prg
+	@echo ... __/src/core.obj
+	@echo ... __/src/core.i
+	@echo ... __/src/core.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

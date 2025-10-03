@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/WWW/Desktop/Yavuz/src/core.cpp" "bin/CMakeFiles/prg.dir/__/src/core.cpp.obj" "gcc" "bin/CMakeFiles/prg.dir/__/src/core.cpp.obj.d"
   "C:/Users/WWW/Desktop/Yavuz/bin/main.cpp" "bin/CMakeFiles/prg.dir/main.cpp.obj" "gcc" "bin/CMakeFiles/prg.dir/main.cpp.obj.d"
   )
 
