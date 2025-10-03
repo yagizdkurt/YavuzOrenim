@@ -1,3 +1,7 @@
-C:/Users/WWW/Desktop/Yavuz/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/WWW/Desktop/Yavuz/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/WWW/Desktop/Yavuz/build/CMakeFiles/edit_cache.dir
+C:/Users/WWW/Desktop/Yavuz/build/CMakeFiles/rebuild_cache.dir
+C:/Users/WWW/Desktop/Yavuz/build/src/CMakeFiles/edit_cache.dir
+C:/Users/WWW/Desktop/Yavuz/build/src/CMakeFiles/rebuild_cache.dir
 C:/Users/WWW/Desktop/Yavuz/build/bin/CMakeFiles/prg.dir
+C:/Users/WWW/Desktop/Yavuz/build/bin/CMakeFiles/edit_cache.dir
+C:/Users/WWW/Desktop/Yavuz/build/bin/CMakeFiles/rebuild_cache.dir

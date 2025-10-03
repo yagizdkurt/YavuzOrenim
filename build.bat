@@ -1,16 +1,20 @@
 @echo off
 set BUILD_DIR=build
+
+REM Clean previous build
 if exist %BUILD_DIR% rmdir /s /q %BUILD_DIR%
 mkdir %BUILD_DIR%
-cd %BUILD_DIR%
 
-REM Generate Visual Studio solution
-cmake -G "Visual Studio 17 2022" -A x64 ..
+REM Add MinGW to PATH (adjust path if needed)
+set PATH=C:\msys64\mingw64\bin;%PATH%
 
-REM Build
-cmake --build . --config Release
-cd ..
+REM Generate project with MinGW
+cmake -G "MinGW Makefiles" -B %BUILD_DIR% -S .
+
+REM Build project
+cmake --build %BUILD_DIR% -- -j4
 
 REM Copy exe to root
-copy "%CD%\build\bin\Release\prg.exe" "%CD%\prg.exe"
+copy "%CD%\%BUILD_DIR%\bin\prg.exe" "%CD%\prg.exe"
+
 pause
