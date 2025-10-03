@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/WWW/Desktop/Yavuz/build/cmake_install.cmake",
-		"C:/Users/WWW/Desktop/Yavuz/build/src/cmake_install.cmake",
-		"C:/Users/WWW/Desktop/Yavuz/build/bin/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
