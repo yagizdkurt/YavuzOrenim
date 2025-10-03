@@ -12,6 +12,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add subdirectories
 add_subdirectory(src)
 add_subdirectory(bin)
+add_subdirectory(outsrc)
 
 # root CMakeLists.txt
 set(OUTPUT_DIR "${CMAKE_SOURCE_DIR}/bin")
